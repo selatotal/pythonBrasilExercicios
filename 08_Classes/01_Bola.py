@@ -1,13 +1,12 @@
 class Bola:
 
-	'Classe para definir uma bola'
-	#cor = None
+    'Classe para definir uma bola'
 
-	def trocaCor (self, cor):
-		self.cor = cor
+    def trocaCor(self, cor):
+        self.cor = cor
 
-	def mostraCor (self):
-		print self.cor
+    def mostraCor(self):
+        print self.cor
 
 # Teste da Classe
 bola = Bola()

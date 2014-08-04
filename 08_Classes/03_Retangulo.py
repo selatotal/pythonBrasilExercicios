@@ -1,26 +1,26 @@
 class Retangulo:
 
-	def __init__ (self, base, altura):
-		self.setBase(base)
-		self.setAltura(altura)
+    def __init__(self, base, altura):
+        self.setBase(base)
+        self.setAltura(altura)
 
-	def setBase(self, base):
-		self.base = base
+    def setBase(self, base):
+        self.base = base
 
-	def getBase(self):
-		return self.base
+    def getBase(self):
+        return self.base
 
-	def setAltura(self, altura):
-		self.altura = altura
+    def setAltura(self, altura):
+        self.altura = altura
 
-	def getAltura(self):
-		return self.altura
+    def getAltura(self):
+        return self.altura
 
-	def calculaArea(self):
-		return self.base * self.altura
+    def calculaArea(self):
+        return self.base * self.altura
 
-	def calculaPerimetro(self):
-		return 2 * self.base + 2 * self.altura
+    def calculaPerimetro(self):
+        return 2 * self.base + 2 * self.altura
 
 # TESTE DA CLASSE
 base = int(raw_input('Informe o valor da base: '))

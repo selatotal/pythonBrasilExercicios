@@ -1,18 +1,18 @@
 class Quadrado:
 
-	'Define um quadrado'
+    'Define um quadrado'
 
-	def __init__ (self, lado):
-		self.setLado(lado)
+    def __init__(self, lado):
+        self.setLado(lado)
 
-	def setLado (self, lado):
-		self.lado = lado
+    def setLado(self, lado):
+        self.lado = lado
 
-	def getLado (self):
-		return self.lado
+    def getLado(self):
+        return self.lado
 
-	def calculaArea (self):
-		return self.lado * self.lado
+    def calculaArea(self):
+        return self.lado * self.lado
 
 # Teste do quadrado
 quadrado = Quadrado(4)

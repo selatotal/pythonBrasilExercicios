@@ -9,18 +9,18 @@ palavras = arquivoEntrada.readlines()
 # Fecha o arquivo
 arquivoEntrada.close()
 
-palavraEscolhida = palavras[random.randint(0, len(palavras)-1)].upper().strip()
+palavraEscolhida = palavras[
+    random.randint(0, len(palavras) - 1)].upper().strip()
 tamanhoPalavra = len(palavraEscolhida)
-#palavraAdivinhada = [ '_' ] * tamanhoPalavra
 palavraAdivinhada = random.sample(palavraEscolhida, len(palavraEscolhida))
 for i in palavraAdivinhada:
-	print '%s' % i,
+    print '%s' % i,
 print
 
 palavra = raw_input('Digite qual eh a palavra: ').upper()
 
 if (palavra == palavraEscolhida):
-	print 'Voce acertou!'
+    print 'Voce acertou!'
 else:
-	print 'Voce perdeu!'
-	print 'A palavra era %s' % palavraEscolhida
+    print 'Voce perdeu!'
+    print 'A palavra era %s' % palavraEscolhida

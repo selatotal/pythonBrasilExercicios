@@ -1,20 +1,20 @@
 class TV:
 
-	def __init__ (self):
-		self.volume = 0
-		self.setCanal(0)
+    def __init__(self):
+        self.volume = 0
+        self.setCanal(0)
 
-	def setCanal(self, canal):
-		if (canal >= 0) and (canal <= 100):
-			self.canal = canal
+    def setCanal(self, canal):
+        if (canal >= 0) and (canal <= 100):
+            self.canal = canal
 
-	def aumentaVolume(self):
-		if (self.volume < 100):
-			self.volume += 1
+    def aumentaVolume(self):
+        if (self.volume < 100):
+            self.volume += 1
 
-	def diminuiVolume(self):
-		if (self.volume > 0):
-			self.volume -= 1
+    def diminuiVolume(self):
+        if (self.volume > 0):
+            self.volume -= 1
 
 # TESTE DA CLASSE
 tv = TV()

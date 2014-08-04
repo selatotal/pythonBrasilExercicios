@@ -1,33 +1,34 @@
 from pprint import pprint
 
+
 class Pessoa:
 
-	def __init__ (self, nome, idade, peso, altura):
-		self.nome = nome
-		self.idade = idade
-		self.peso = peso
-		self.altura = altura
+    def __init__(self, nome, idade, peso, altura):
+        self.nome = nome
+        self.idade = idade
+        self.peso = peso
+        self.altura = altura
 
-	def engordar(self, peso):
-		self.peso += peso
+    def engordar(self, peso):
+        self.peso += peso
 
-	def emagrecer(self, peso):
-		if (peso > self.peso):
-			self.peso = 0
-		else:
-			self.peso -= peso
+    def emagrecer(self, peso):
+        if (peso > self.peso):
+            self.peso = 0
+        else:
+            self.peso -= peso
 
-	def crescer(self, altura):
-		self.altura += altura
+    def crescer(self, altura):
+        self.altura += altura
 
-	def envelhecer(self, anos):
-		anosAntes = self.idade
-		self.idade += anos
-		if (anosAntes < 25):
-			if (self.idade < 25):
-				self.crescer(anos * 0.5)
-			else:
-				self.crescer((25-anosAntes) * 0.5)
+    def envelhecer(self, anos):
+        anosAntes = self.idade
+        self.idade += anos
+        if (anosAntes < 25):
+            if (self.idade < 25):
+                self.crescer(anos * 0.5)
+            else:
+                self.crescer((25 - anosAntes) * 0.5)
 
 
 # TESTE DA CLASSE
