@@ -7,9 +7,10 @@ crescimentoB = 1.015
 # Realiza calculo de anos
 ano = 1
 while (populacaoA <= populacaoB):
-	populacaoA *= crescimentoA
-	populacaoB *= crescimentoB
-	ano += 1
+    populacaoA *= crescimentoA
+    populacaoB *= crescimentoB
+    ano += 1
 
 # Imprime o resultado
-print 'Serao necessarios', ano, 'anos para que a populacao do pais A ultrapasse a populacao do pais B'
+print 'Serao necessarios', ano, 'anos para que a populacao do pais A'\
+    ' ultrapasse a populacao do pais B'

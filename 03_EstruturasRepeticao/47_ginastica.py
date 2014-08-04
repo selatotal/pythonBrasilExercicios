@@ -5,14 +5,14 @@ atleta = raw_input('Atleta: ')
 
 for i in range(0, 7):
 
-	nota = float(raw_input('Nota: '))
-	somaNotas += nota
+    nota = float(raw_input('Nota: '))
+    somaNotas += nota
 
-	if ('maiorNota' not in vars()) or (nota > maiorNota):
-		maiorNota = nota
+    if ('maiorNota' not in vars()) or (nota > maiorNota):
+        maiorNota = nota
 
-	if ('menorNota' not in vars()) or (nota < menorNota):
-		menorNota = nota
+    if ('menorNota' not in vars()) or (nota < menorNota):
+        menorNota = nota
 
 somaNotas -= maiorNota
 somaNotas -= menorNota
