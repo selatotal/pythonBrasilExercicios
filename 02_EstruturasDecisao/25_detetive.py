@@ -10,25 +10,25 @@ trabalhou = raw_input('Voce trabalhou para a vitima? ').upper()
 classificacao = 0
 
 if (telefonou == 'S'):
-	classificacao+=1
+    classificacao += 1
 
 if (localCrime == 'S'):
-	classificacao+=1
+    classificacao += 1
 
 if (moraPerto == 'S'):
-	classificacao+=1
+    classificacao += 1
 
 if (devia == 'S'):
-	classificacao+=1
+    classificacao += 1
 
 if (trabalhou == 'S'):
-	classificacao+=1
+    classificacao += 1
 
 if (classificacao < 2):
-	print 'Inocente'
+    print 'Inocente'
 elif (classificacao == 2):
-	print 'Suspeito'
+    print 'Suspeito'
 elif (classificacao <= 4):
-	print 'Cumplice'
+    print 'Cumplice'
 else:
-	print 'Assassino'
+    print 'Assassino'

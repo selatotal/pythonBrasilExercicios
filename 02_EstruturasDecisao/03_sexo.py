@@ -1,8 +1,8 @@
 sexo = raw_input('Informe F para FEMININO ou M para MASCULINO: ')
 
 if (sexo.upper() == 'M'):
-	print 'MASCULINO'
+    print 'MASCULINO'
 elif (sexo.upper() == 'F'):
-	print 'FEMININO'
+    print 'FEMININO'
 else:
-	print 'Sexo Invalido'
+    print 'Sexo Invalido'

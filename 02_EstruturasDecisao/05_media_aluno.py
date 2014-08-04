@@ -5,8 +5,8 @@ media = (nota1 + nota2) / 2.0
 
 print 'A media do aluno eh:', media
 if (media == 10):
-	print 'Aprovado com Distincao'
+    print 'Aprovado com Distincao'
 elif (media >= 7):
-	print 'Aprovado'
+    print 'Aprovado'
 else:
-	print 'Reprovado'
+    print 'Reprovado'

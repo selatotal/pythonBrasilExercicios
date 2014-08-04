@@ -1,18 +1,18 @@
 numero_dia = int(raw_input('Informe um numero para saber o dia da semana: '))
 
 if (numero_dia == 1):
-	print 'Domingo'
+    print 'Domingo'
 elif (numero_dia == 2):
-	print 'Segunda'
+    print 'Segunda'
 elif (numero_dia == 3):
-	print 'Terca'
+    print 'Terca'
 elif (numero_dia == 4):
-	print 'Quarta'
+    print 'Quarta'
 elif (numero_dia == 5):
-	print 'Quinta'
+    print 'Quinta'
 elif (numero_dia == 6):
-	print 'Sexta'
+    print 'Sexta'
 elif (numero_dia == 7):
-	print 'Sabado'
+    print 'Sabado'
 else:
-	print 'Valor invalido'
+    print 'Valor invalido'

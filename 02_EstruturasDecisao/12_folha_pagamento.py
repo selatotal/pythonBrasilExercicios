@@ -1,19 +1,20 @@
 # Solicita os dados
 valorPorHora = float(raw_input('Informe o valor da hora trabalhada: '))
-quantidadeHoras = float(raw_input('Informe a quantidade de horas trabalhadas no mes:'))
+quantidadeHoras =\
+    float(raw_input('Informe a quantidade de horas trabalhadas no mes:'))
 
 # Calcula o salario bruto
 salarioBruto = valorPorHora * quantidadeHoras
 
 # Calcula o imposto de renda
 if (salarioBruto > 2500):
-	aliquotaIR = 20
+    aliquotaIR = 20
 elif (salarioBruto > 1500):
-	aliquotaIR = 10
+    aliquotaIR = 10
 elif (salarioBruto > 900):
-	aliquotaIR = 5
+    aliquotaIR = 5
 else:
-	aliquotaIR = 0
+    aliquotaIR = 0
 
 valorIR = salarioBruto * (aliquotaIR / 100.0)
 
@@ -30,7 +31,8 @@ valorFGTS = salarioBruto * (11 / 100.0)
 salarioLiquido = salarioBruto - totalDescontos
 
 # Imprime o resultado
-print 'Salario Bruto: (', valorPorHora, '*', quantidadeHoras, '): R$', salarioBruto
+print 'Salario Bruto: (', valorPorHora, '*', quantidadeHoras, '): R$',\
+    salarioBruto
 print '(-) IR (', aliquotaIR, '%): R$', valorIR
 print '(-) Sindicato ( 3 %): R$', valorSindicato
 print 'FGTS ( 11 %): R$', valorFGTS
