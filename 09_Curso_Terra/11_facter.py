@@ -8,8 +8,8 @@ stdout, stderr = process.communicate()
 
 dicionario = {}
 for line in stdout.split('\n'):
-	if len(line) > 0:
-		entrada = line.split(' => ', 2)
-		dicionario[entrada[0]] = entrada[1]
+    if len(line) > 0:
+        entrada = line.split(' => ', 2)
+        dicionario[entrada[0]] = entrada[1]
 
 print dicionario

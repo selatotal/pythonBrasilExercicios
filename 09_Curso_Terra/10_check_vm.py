@@ -7,6 +7,6 @@ process = Popen('facter', stdout=PIPE, stderr=PIPE)
 stdout, stderr = process.communicate()
 
 if 'is_virtual => true' in stdout:
-	print 'Estou em uma maquina virtual'
+    print 'Estou em uma maquina virtual'
 else:
-	print 'Estou em uma maquina real'
+    print 'Estou em uma maquina real'
