@@ -15,7 +15,7 @@ Validar de o servidor pertence ao terra checando se estão nos domínios terra.*
 Escrever na tela se o servidor faz parte de MIA, POA ou CIS. Senão, devolver "Datacenter desconhecido".
 
 ## Desafio 4
-Escrever um dicionário onde a chave é a nome da equipe no Terra ou produto principal em que trabalha e o valor é uma lista de tuplas onde cada item é o nome de cada colega de equipe e o RE (fake).
+Escrever um dicionário onde a chave é o nome da equipe no Terra ou produto principal em que trabalha e o valor é uma lista de tuplas onde cada item é o nome de cada colega de equipe e o RE (fake).
 Listar esses dados
 
 ## Desafio 5
@@ -24,7 +24,6 @@ Listar esses dados
 	for ip in network:
 		print ip
 Continuando o programa acima, adicionar uma verificação que, se o usuário digitar uma rede, ele deve escrever os IPS dessa rede.
-Se o usuário digitar um hostname, deve manter a validação anterior.
 
 ## Desafio 6
 	def func(*args, **kwargs):
