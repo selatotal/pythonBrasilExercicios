@@ -1,7 +1,7 @@
 # Exercícios do Curso do Terra
 
 ## Material do Curso
-Disponível em [TreinamentoPythonTerra.pdf](TreinamentoPythonTerra.pdf)
+Disponível em [TreinamentoPythonTerra.pdf](TreinamentoPythonTerra.pdf?raw=true)
 
 ## Desafio 1
 * 20 + 5 * 4 + 2 deve dar 150. O que falta para isso?
