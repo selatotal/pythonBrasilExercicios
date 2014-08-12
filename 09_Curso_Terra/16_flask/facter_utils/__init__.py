@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
+
 from subprocess import Popen, PIPE
+
 
 def log(msg):
     with open('/tmp/facterutils.log', 'a') as arquivo:
@@ -8,7 +10,8 @@ def log(msg):
         arquivo.close()
     return
 
-def get_argument(argumento): 
+
+def get_argument(argumento):
     # Busca a lista de argumentos e coloca em um dictionary
     process = Popen('facter', stdout=PIPE, stderr=PIPE)
     stdout, stderr = process.communicate()

@@ -1,5 +1,8 @@
 # Exercícios do Curso do Terra
 
+## Material do Curso
+Disponível em [TreinamentoPythonTerra.pdf]()
+
 ## Desafio 1
 * 20 + 5 * 4 + 2 deve dar 150. O que falta para isso?
 
@@ -90,9 +93,7 @@ Deve ser feita uma função def log(msg) no módulo facterutils
 Deve usar _with_
 
 ## Desafio 14
-	$ wget http://goo.gl/dsc4Jv
-
-* Abrir o arquivo texto usando open()
+* Abrir o arquivo names.csv usando open()
 * Cada linha representa uma lista separada por ponto-e-vírgula. Colocar os nomes em conjuntos (sets)
 * Verificar quais nomes do conjunto 1 aparecem no conjunto 2, porém que não estejam no conjunto 3
 
