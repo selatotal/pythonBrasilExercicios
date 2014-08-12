@@ -1,0 +1,11 @@
+{% block body %}
+	<h2>Facter Viewer</h2>
+
+	<form action="/" method="post">
+		<dl>
+			<dd>Attribute Name: <input type="text" name="name" /></dd>
+			<dd><input type="submit" value="Check..." /></dd>
+			<dt>{{ fields.name }}{% if fields.name is defined %} = {% endif %}{{ fields.value }}</dt>
+		</dl>
+	</form>
+{% endblock %}
