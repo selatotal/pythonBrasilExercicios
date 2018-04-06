@@ -1,6 +1,6 @@
 Exercícios resolvidos de Python. Lista disponível no site do Python Brasil:
 
-http://www.python.org.br/wiki/ListaDeExercicios
+http://wiki.python.org.br/ListaDeExercicios
 
 Tutorial Python:
 
